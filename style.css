@@ -15,10 +15,14 @@ header{
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
     background-attachment: fixed;
+    margin-bottom: 150px;
 }
 .right img{
     width: 50%;
     margin-top: 15%;
+    height: 500px;
+    width: 500px;
+    
 }
 .left {
     width: 50%;
@@ -31,4 +35,25 @@ header{
     font-weight: 700;
     text-transform: uppercase;
     border-radius: 5px;
+}
+.first-section{
+    display: flex;
+    padding-left: 5%;
+}
+
+.first-section .right button{
+    background-image: linear-gradient(orange, tomato);
+    padding: 10px 40px;
+    border: none;
+    color: white;
+    font-weight: 700;
+    text-transform: uppercase;
+    border-radius: 5px;
+}
+.first-section .left img{
+    height: 500px;
+    width: 500px;
+}
+.first-section .right{
+    padding-left: 5%;
 }
